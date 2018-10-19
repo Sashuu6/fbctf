@@ -49,7 +49,7 @@ class IndexController extends Controller {
       $welcome_msg =
         'Welcome to the '.
         $custom_org->getValue().
-        ' Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.';
+        ' King Of The Hill Competition. By clicking "Play," you will be entered into the official DCOD competition. Good luck in your conquest.';
     }
     return
       <div class="fb-row-container full-height fb-scroll">
@@ -80,7 +80,7 @@ class IndexController extends Controller {
         <form class="fb-form inner-container">
           <p>
             {tr(
-              'Get ready for the CTF to start and access the gameboard now!',
+              'Get ready for the DCOD to start and access the gameboard now!',
             )}
           </p>
           <div class="form-el--actions">
@@ -105,7 +105,7 @@ class IndexController extends Controller {
       $play_nav =
         <form class="fb-form inner-container">
           <p>
-            {tr('Get ready for the CTF to start and register your team now!')}
+            {tr('Get ready for the DCOD to start to start and register your team now!')}
           </p>
           <div class="form-el--actions">
             {$registration_button}
@@ -179,7 +179,7 @@ class IndexController extends Controller {
         <main role="main" class="fb-main page--rules fb-scroll">
           <header class="fb-section-header fb-container">
             <h1 class="fb-glitch" data-text={tr('Official CTF Rules')}>
-              {tr('Official CTF Rules')}
+              {tr('Official DCOD Rules')}
             </h1>
             <p class="inner-container typed-text">
               {tr(
@@ -191,12 +191,12 @@ class IndexController extends Controller {
             <section>
               <header class="rule-section-header">
                 <h3>{tr('Rule')} 1</h3>
-                <h6>{tr('Cooperation')}</h6>
+                <h6>{tr('Cheating')}</h6>
               </header>
               <div class="rule-main">
                 <p>
                   {tr(
-                    'No cooperation between teams with independent accounts. Sharing of keys or providing revealing hints to other teams is cheating, don’t do it.',
+                    'Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.',
                   )}
                 </p>
                 <p></p>
@@ -205,12 +205,12 @@ class IndexController extends Controller {
             <section>
               <header class="rule-section-header">
                 <h3>{tr('Rule')} 2</h3>
-                <h6>{tr('Attacking Scoreboard')}</h6>
+                <h6>{tr('Just another rule')}</h6>
               </header>
               <div class="rule-main">
                 <p>
                   {tr(
-                    'No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately.',
+                    'Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.',
                   )}
                 </p>
                 <p></p>
@@ -219,12 +219,12 @@ class IndexController extends Controller {
             <section>
               <header class="rule-section-header">
                 <h3>{tr('Rule')} 3</h3>
-                <h6>{tr('Sabotage')}</h6>
+                <h6>{tr('another rule daa')}</h6>
               </header>
               <div class="rule-main">
                 <p>
                   {tr(
-                    'Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.',
+                    'Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.',
                   )}
                 </p>
                 <p></p>
@@ -233,12 +233,12 @@ class IndexController extends Controller {
             <section>
               <header class="rule-section-header">
                 <h3>{tr('Rule')} 4</h3>
-                <h6>{tr('Bruteforcing')}</h6>
+                <h6>{tr('one more rule')}</h6>
               </header>
               <div class="rule-main">
                 <p>
                   {tr(
-                    'No brute forcing of challenge flag/ keys against the scoring site.',
+                    'Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.',
                   )}
                 </p>
                 <p></p>
@@ -247,12 +247,12 @@ class IndexController extends Controller {
             <section>
               <header class="rule-section-header">
                 <h3>{tr('Rule')} 5</h3>
-                <h6>{tr('Denial Of Service')}</h6>
+                <h6>{tr('rule#')}</h6>
               </header>
               <div class="rule-main">
                 <p>
                   {tr(
-                    'DoSing the CTF platform or any of the challenges is forbidden.',
+                    'Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.',
                   )}
                 </p>
                 <p></p>
@@ -266,18 +266,18 @@ class IndexController extends Controller {
               <div class="rule-main">
                 <p>
                   {tr(
-                    'By participating in the contest, you agree to release Facebook and its employees, and the hosting organization from any and all liability, claims or actions of any kind whatsoever for injuries, damages or losses to persons and property which may be sustained in connection with the contest. You acknowledge and agree that Facebook et al is not responsible for technical, hardware or software failures, or other errors or problems which may occur in connection with the contest.',
+                    'Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.Lorem ipsum netus nisl imperdiet luctus aliquam urna nec, sit dictum aptent vitae purus laoreet iaculis, sodales luctus at tortor molestie adipiscing commodo.',
                   )}
                 </p>
               </div>
             </section>
             <p>
               {tr(
-                'If you have any questions about what is or is not allowed, please ask an organizer.',
+                'If you have any questions about what is or is not allowed, please ask an Shibin Sidharth.',
               )}
             </p>
             <p></p>
-            <p>{tr('Have fun!')}</p>
+            <p>{tr('Have fun nigga!')}</p>
             <p></p>
           </div>
         </main>
@@ -596,7 +596,7 @@ class IndexController extends Controller {
     $page_header =
       <header class="fb-section-header fb-container">
         <h1 class="fb-glitch" data-text="Team Registration">
-          {tr('Team Registration')}
+          {tr('User Registration')}
         </h1>
       </header>;
 
@@ -653,7 +653,7 @@ class IndexController extends Controller {
       <header class="fb-section-header fb-container">
         <p class="inner-container">
           {tr(
-            'Or register to use username and password here. Once you have registered, you will be logged in.',
+            'Register to use username and password here. Once you have registered, you will be logged in.',
           )}
         </p>
       </header>;
@@ -664,7 +664,7 @@ class IndexController extends Controller {
           <input type="hidden" name="action" value="register_team" />
           <fieldset class="form-set fb-container container--small">
             <div class="form-el el--text">
-              <label for="">{tr('Team Name')}</label>
+              <label for="">{tr('Username')}</label>
               <input
                 autocomplete="off"
                 name="team_name"
@@ -845,7 +845,7 @@ class IndexController extends Controller {
               </h1>
               <form class="fb-form inner-container">
                 <p>
-                  {tr('Team Registration will be open soon, stay tuned!')}
+                  {tr('The Registration will be open soon, stay tuned!')}
                 </p>
                 <div class="form-el--actions">
                   <a
@@ -1029,7 +1029,7 @@ class IndexController extends Controller {
       $login_header =
         <header class="fb-section-header fb-container">
           <h1 class="fb-glitch" data-text={tr('Team Login')}>
-            {tr('Team Login')}
+            {tr('User Login')}
           </h1>
           <p class="inner-container">
             {$header_message}
@@ -1043,7 +1043,7 @@ class IndexController extends Controller {
             <input type="hidden" name="login_select" value={$login_select} />
             <fieldset class="form-set fb-container container--small">
               <div class="form-el el--text">
-                <label for="">{tr('Team Name')}</label>
+                <label for="">{tr('Username ')}</label>
                 {$login_team} {$ldap_domain_suffix}
               </div>
               <div class="form-el el--text">
@@ -1083,7 +1083,7 @@ class IndexController extends Controller {
             </h1>
             <p class="inner-container">
               {tr(
-                'Team login is disabled. Only admins can login at this time. ',
+                'User login is disabled. Only admins can login at this time. ',
               )}
             </p>
           </header>
@@ -1093,7 +1093,7 @@ class IndexController extends Controller {
               <input type="hidden" name="login_select" value={"off"} />
               <fieldset class="form-set fb-container container--small">
                 <div class="form-el el--text">
-                  <label for="">{tr('Team Name')}</label>
+                  <label for="">{tr('Username')}</label>
                   <input
                     autocomplete="off"
                     name="team_name"
