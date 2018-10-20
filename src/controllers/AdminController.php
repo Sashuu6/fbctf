@@ -4,7 +4,7 @@ class AdminController extends Controller {
   <<__Override>>
   protected function getTitle(): string {
     $custom_org = \HH\Asio\join(Configuration::gen('custom_org'));
-    return tr($custom_org->getValue()).' '.tr('').' | '.tr('Admin');
+    return tr($custom_org->getValue()).' '.tr('CTF').' | '.tr('Admin');
   }
 
   <<__Override>>
@@ -544,7 +544,7 @@ class AdminController extends Controller {
     return
       <div>
         <header class="admin-page-header">
-          <h3>{tr('DCOD Configuration')}</h3>
+          <h3>{tr('Game Configuration')}</h3>
           <span class="admin-section--status">
             {tr('status_')}<span class="highlighted">{tr('OK')}</span>
           </span>
@@ -603,19 +603,18 @@ class AdminController extends Controller {
                       </div>
                     </div>
                   </div>
-                  // <div class="col col-pad col-2-4">
-                  //   <div class="form-el el--block-label">
-                  //     <label for="">{tr('Players Per Team')}</label>
-                  //     <input
-                  //       type="number"
-                  //       value={$registration_players->getValue()}
-                  //       name="fb--conf--registration_players"
-                  //       max="1"
-                  //       min="1"
-                  //     />
-                  //   </div>
-                  // </div>
-                  $registration_players->getValue() = 1;
+                  <div class="col col-pad col-2-4">
+                    <div class="form-el el--block-label">
+                      <label for="">{tr('Players Per Team')}</label>
+                      <input
+                        type="number"
+                        value={$registration_players->getValue()}
+                        name="fb--conf--registration_players"
+                        max="12"
+                        min="1"
+                      />
+                    </div>
+                  </div>
                   <div class="col col-pad col-3-4">
                     <div class="form-el el--block-label">
                       <label>{tr('Registration Type')}</label>
@@ -647,7 +646,7 @@ class AdminController extends Controller {
                 <div class="fb-column-container">
                   <div class="col col-pad col-1-3">
                     <div class="form-el el--block-label">
-                      <label>{tr('User Selection')}</label>
+                      <label>{tr('Team Selection')}</label>
                       <div class="admin-section-toggle radio-inline">
                         <input
                           type="radio"
@@ -4143,7 +4142,7 @@ class AdminController extends Controller {
     return
       <div id="fb-admin-nav" class="admin-nav-bar fb-row-container">
         <header class="admin-nav-header row-fixed">
-          <h2>{tr('DCOD Admin')}</h2>
+          <h2>{tr('Game Admin')}</h2>
         </header>
         <nav class="admin-nav-links row-fluid">
           <ul>
