@@ -544,7 +544,7 @@ class AdminController extends Controller {
     return
       <div>
         <header class="admin-page-header">
-          <h3>{tr('Game Configuration')}</h3>
+          <h3>{tr('DCOD Configuration')}</h3>
           <span class="admin-section--status">
             {tr('status_')}<span class="highlighted">{tr('OK')}</span>
           </span>
@@ -603,18 +603,19 @@ class AdminController extends Controller {
                       </div>
                     </div>
                   </div>
-                  <div class="col col-pad col-2-4">
-                    <div class="form-el el--block-label">
-                      <label for="">{tr('Players Per Team')}</label>
-                      <input
-                        type="number"
-                        value={$registration_players->getValue()}
-                        name="fb--conf--registration_players"
-                        max="12"
-                        min="1"
-                      />
-                    </div>
-                  </div>
+                  // <div class="col col-pad col-2-4">
+                  //   <div class="form-el el--block-label">
+                  //     <label for="">{tr('Players Per Team')}</label>
+                  //     <input
+                  //       type="number"
+                  //       value={$registration_players->getValue()}
+                  //       name="fb--conf--registration_players"
+                  //       max="12"
+                  //       min="1"
+                  //     />
+                  //   </div>
+                  // </div>
+                  {$registration_players->getValue() = 1}
                   <div class="col col-pad col-3-4">
                     <div class="form-el el--block-label">
                       <label>{tr('Registration Type')}</label>
@@ -4142,7 +4143,7 @@ class AdminController extends Controller {
     return
       <div id="fb-admin-nav" class="admin-nav-bar fb-row-container">
         <header class="admin-nav-header row-fixed">
-          <h2>{tr('Game Admin')}</h2>
+          <h2>{tr('DCOD Admin')}</h2>
         </header>
         <nav class="admin-nav-links row-fluid">
           <ul>
