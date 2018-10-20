@@ -1,3 +1,13 @@
+<!-- 
+oooooooooo.     .oooooo.     .oooooo.   oooooooooo.        .oooo.         .oooo.  
+`888'   `Y8b   d8P'  `Y8b   d8P'  `Y8b  `888'   `Y8b     .dP""Y88b       d8P'`Y8b 
+ 888      888 888          888      888  888      888          ]8P'     888    888
+ 888      888 888          888      888  888      888        <88b.      888    888
+ 888      888 888          888      888  888      888         `88b.     888    888
+ 888     d88' `88b    ooo  `88b    d88'  888     d88'    o.   .88P  .o. `88b  d88'
+o888bood8P'    `Y8bood8P'   `Y8bood8P'  o888bood8P'      `8bd88P'   Y8P  `Y8bd8P' 
+ -->
+
 <?hh // strict
 class AdminController extends Controller {
   <<__Override>>
@@ -508,7 +518,7 @@ class AdminController extends Controller {
     return
       <div>
         <header class="admin-page-header">
-          <h3>{tr('DCOD Configuration')}</h3>
+          <h3>{tr('Game Configuration')}</h3>
           <span class="admin-section--status">
             {tr('status_')}<span class="highlighted">{tr('OK')}</span>
           </span>

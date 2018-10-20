@@ -1,10 +1,20 @@
+<!-- 
+oooooooooo.     .oooooo.     .oooooo.   oooooooooo.        .oooo.         .oooo.  
+`888'   `Y8b   d8P'  `Y8b   d8P'  `Y8b  `888'   `Y8b     .dP""Y88b       d8P'`Y8b 
+ 888      888 888          888      888  888      888          ]8P'     888    888
+ 888      888 888          888      888  888      888        <88b.      888    888
+ 888      888 888          888      888  888      888         `88b.     888    888
+ 888     d88' `88b    ooo  `88b    d88'  888     d88'    o.   .88P  .o. `88b  d88'
+o888bood8P'    `Y8bood8P'   `Y8bood8P'  o888bood8P'      `8bd88P'   Y8P  `Y8bd8P' 
+ -->
+
 <?hh // strict
 
 class GameboardController extends Controller {
   <<__Override>>
   protected function getTitle(): string {
     $custom_org = \HH\Asio\join(Configuration::gen('custom_org'));
-    return tr($custom_org->getValue()).' '.tr('CTF').' | '.tr('Gameboard');
+    return tr($custom_org->getValue()).' '.tr('').' | '.tr('Gameboard');
   }
 
   <<__Override>>
@@ -124,7 +134,7 @@ class GameboardController extends Controller {
           </aside>
         </div>
         <div class="fb-module-container container--column column-right">
-          <aside data-name={tr('Teams')} data-module="teams"></aside>
+          <aside data-name={tr('Users')} data-module="teams"></aside>
           <aside data-name={tr('Filter')} data-module="filter"></aside>
         </div>
         <div class="fb-module-container container--row">
