@@ -49,7 +49,7 @@ class IndexController extends Controller {
       $welcome_msg =
         'Welcome to the '.
         $custom_org->getValue().
-        ' King Of The Hill Competition. By clicking "Play," you will be entered into the official DCOD competition. Good luck in your conquest.';
+        ' Competition. By clicking "Play," you will be entered into the official DCOD competition. Good luck in your conquest.';
     }
     return
       <div class="fb-row-container full-height fb-scroll">
@@ -105,7 +105,7 @@ class IndexController extends Controller {
       $play_nav =
         <form class="fb-form inner-container">
           <p>
-            {tr('Get ready for the DCOD to start and register your team now!')}
+            {tr('Get ready for the DCOD to start and register yourself now!')}
           </p>
           <div class="form-el--actions">
             {$registration_button}
@@ -381,8 +381,8 @@ class IndexController extends Controller {
 
     $page_header =
       <header class="fb-section-header fb-container">
-        <h1 class="fb-glitch" data-text="Team Registration">
-          {tr('Team Registration')}
+        <h1 class="fb-glitch" data-text="User Registration">
+          {tr('User Registration')}
         </h1>
       </header>;
 
@@ -595,7 +595,7 @@ class IndexController extends Controller {
 
     $page_header =
       <header class="fb-section-header fb-container">
-        <h1 class="fb-glitch" data-text="Team Registration">
+        <h1 class="fb-glitch" data-text="User Registration">
           {tr('User Registration')}
         </h1>
       </header>;
@@ -817,8 +817,8 @@ class IndexController extends Controller {
           role="main"
           class="fb-main page--registration full-height fb-scroll">
           <header class="fb-section-header fb-container">
-            <h1 class="fb-glitch" data-text={tr('Team Registration')}>
-              {tr('Team Registration')}
+            <h1 class="fb-glitch" data-text={tr('User Registration')}>
+              {tr('User Registration')}
             </h1>
             <p class="inner-container">
               {tr(
@@ -839,7 +839,7 @@ class IndexController extends Controller {
             class=
               "fb-main page--game-status row-fluid no-shrink center-vertically fb-img-glitch">
             <div class="fb-container fb-centered-main">
-              <h3 class="title-lead">{tr('Team Registration')}</h3>
+              <h3 class="title-lead">{tr('User Registration')}</h3>
               <h1 class="fb-glitch" data-text={tr('Not Available')}>
                 {tr('Not Available')}
               </h1>
@@ -1028,7 +1028,7 @@ class IndexController extends Controller {
 
       $login_header =
         <header class="fb-section-header fb-container">
-          <h1 class="fb-glitch" data-text={tr('Team Login')}>
+          <h1 class="fb-glitch" data-text={tr('User Login')}>
             {tr('User Login')}
           </h1>
           <p class="inner-container">
@@ -1138,8 +1138,8 @@ class IndexController extends Controller {
 
       $login_header =
         <header class="fb-section-header fb-container">
-          <h1 class="fb-glitch" data-text={tr('Team Login')}>
-            {tr('Team Login')}
+          <h1 class="fb-glitch" data-text={tr('User Login')}>
+            {tr('User Login')}
           </h1>
           <p class="inner-container">
             {$header_message}
@@ -1164,12 +1164,12 @@ class IndexController extends Controller {
             class=
               "fb-main page--game-status row-fluid no-shrink center-vertically fb-img-glitch">
             <div class="fb-container fb-centered-main">
-              <h3 class="title-lead">{tr('Team Login')}</h3>
+              <h3 class="title-lead">{tr('User Login')}</h3>
               <h1 class="fb-glitch" data-text={tr('Not Available')}>
                 {tr('Not Available')}
               </h1>
               <form class="fb-form inner-container">
-                <p>{tr('Team Login will be open soon, stay tuned!')}</p>
+                <p>{tr('User Login will be open soon, stay tuned!')}</p>
                 <div class="form-el--actions">
                   <a href="/index.php?page=login" class="fb-cta cta--yellow">
                     {tr('Try Again')}
