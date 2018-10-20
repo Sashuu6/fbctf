@@ -577,18 +577,19 @@ class AdminController extends Controller {
                       </div>
                     </div>
                   </div>
-                  <div class="col col-pad col-2-4">
-                    <div class="form-el el--block-label">
-                      <label for="">{tr('Players Per Username')}</label>
-                      <input
-                        type="number"
-                        value={$registration_players->getValue()}
-                        name="fb--conf--registration_players"
-                        max="12"
-                        min="1"
-                      />
-                    </div>
-                  </div>
+                  // <div class="col col-pad col-2-4">
+                  //   <div class="form-el el--block-label">
+                  //     <label for="">{tr('Players Per Team')}</label>
+                  //     <input
+                  //       type="number"
+                  //       value={$registration_players->getValue()}
+                  //       name="fb--conf--registration_players"
+                  //       max="12"
+                  //       min="1"
+                  //     />
+                  //   </div>
+                  // </div>
+                  // {$registration_players->getValue()=1}
                   <div class="col col-pad col-3-4">
                     <div class="form-el el--block-label">
                       <label>{tr('Registration Type')}</label>
