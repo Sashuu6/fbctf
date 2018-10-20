@@ -97,7 +97,7 @@ class IndexController extends Controller {
             style="margin-left: 1em;"
             href="/index.php?page=registration"
             class="fb-cta cta--yellow">
-            {tr('Register Team')}
+            {tr('Register User')}
           </a>;
       } else {
         $registration_button = <a></a>;
@@ -178,7 +178,7 @@ class IndexController extends Controller {
       <div class="fb-column-container full-height">
         <main role="main" class="fb-main page--rules fb-scroll">
           <header class="fb-section-header fb-container">
-            <h1 class="fb-glitch" data-text={tr('Official CTF Rules')}>
+            <h1 class="fb-glitch" data-text={tr('Official DCOD Rules')}>
               {tr('Official DCOD Rules')}
             </h1>
             <p class="inner-container typed-text">
