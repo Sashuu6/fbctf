@@ -605,7 +605,7 @@ class AdminController extends Controller {
                   </div>
                   <div class="col col-pad col-2-4">
                     <div class="form-el el--block-label">
-                      <label for="">{tr('Players Per Team')}</label>
+                      <label for="">{tr('Players Per Username')}</label>
                       <input
                         type="number"
                         value={$registration_players->getValue()}
@@ -4142,7 +4142,7 @@ class AdminController extends Controller {
     return
       <div id="fb-admin-nav" class="admin-nav-bar fb-row-container">
         <header class="admin-nav-header row-fixed">
-          <h2>{tr('Game Admin')}</h2>
+          <h2>{tr('DCOD Admin')}</h2>
         </header>
         <nav class="admin-nav-links row-fluid">
           <ul>
