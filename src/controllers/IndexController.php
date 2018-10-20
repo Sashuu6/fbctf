@@ -4,7 +4,7 @@ class IndexController extends Controller {
   <<__Override>>
   public function getTitle(): string {
     $custom_org = \HH\Asio\join(Configuration::gen('custom_org'));
-    return tr($custom_org->getValue()).' '.tr('CTF');
+    return tr($custom_org->getValue()).' '.tr('');
   }
 
   <<__Override>>
@@ -105,7 +105,7 @@ class IndexController extends Controller {
       $play_nav =
         <form class="fb-form inner-container">
           <p>
-            {tr('Get ready for the DCOD to start to start and register your team now!')}
+            {tr('Get ready for the DCOD to start and register your team now!')}
           </p>
           <div class="form-el--actions">
             {$registration_button}
