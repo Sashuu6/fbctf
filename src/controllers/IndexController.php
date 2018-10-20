@@ -439,7 +439,7 @@ class IndexController extends Controller {
       <header class="fb-section-header fb-container">
         <p class="inner-container">
           {tr(
-            'Or register to use username and password here. Once you have registered, you will be logged in.',
+            'register to use username and password here. Once you have registered, you will be logged in.',
           )}
         </p>
       </header>;
@@ -454,7 +454,7 @@ class IndexController extends Controller {
           <br /><br />
           <fieldset class="form-set fb-container container--small">
             <div class="form-el el--text">
-              <label for="">{tr('Team Name')}</label>
+              <label for="">{tr('Username')}</label>
               <input
                 autocomplete="off"
                 name="team_name"
