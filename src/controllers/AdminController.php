@@ -579,7 +579,7 @@ class AdminController extends Controller {
                   //     />
                   //   </div>
                   // </div>
-                  {$registration_players->getValue()=1}
+                  // {$registration_players->getValue()=1}
                   <div class="col col-pad col-3-4">
                     <div class="form-el el--block-label">
                       <label>{tr('Registration Type')}</label>
