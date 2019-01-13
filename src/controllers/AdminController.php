@@ -4142,7 +4142,7 @@ class AdminController extends Controller {
     return
       <div id="fb-admin-nav" class="admin-nav-bar fb-row-container">
         <header class="admin-nav-header row-fixed">
-          <h2>{tr('DCOD Admin')}</h2>
+          <h2>{tr('Admin')}</h2>
         </header>
         <nav class="admin-nav-links row-fluid">
           <ul>
