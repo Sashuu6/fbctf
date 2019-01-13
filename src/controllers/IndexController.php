@@ -105,7 +105,7 @@ class IndexController extends Controller {
       $play_nav =
         <form class="fb-form inner-container">
           <p>
-            {tr('Get ready for the DCOD to start and register yourself now!')}
+            {tr('Get ready for the competition to start and register yourself now!')}
           </p>
           <div class="form-el--actions">
             {$registration_button}
