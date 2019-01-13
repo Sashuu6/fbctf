@@ -43,13 +43,13 @@ class IndexController extends Controller {
     if ($custom_org->getValue() === 'Facebook') {
       $welcome_msg =
         tr(
-          'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.',
+          'Welcome to the Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.',
         );
     } else {
       $welcome_msg =
         'Welcome to the '.
         $custom_org->getValue().
-        ' Competition. By clicking "Play," you will be entered into the official DCOD competition. Good luck in your conquest.';
+        ' Competition. By clicking "Play," you will be entered into the official competition. Good luck in your conquest.';
     }
     return
       <div class="fb-row-container full-height fb-scroll">
@@ -80,7 +80,7 @@ class IndexController extends Controller {
         <form class="fb-form inner-container">
           <p>
             {tr(
-              'Get ready for the DCOD to start and access the gameboard now!',
+              'Get ready for the competition to start and access the gameboard.',
             )}
           </p>
           <div class="form-el--actions">
