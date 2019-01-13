@@ -277,7 +277,7 @@ class IndexController extends Controller {
               )}
             </p>
             <p></p>
-            <p>{tr('Have fun nigga!')}</p>
+            <p>{tr('Have fun Developers!')}</p>
             <p></p>
           </div>
         </main>
